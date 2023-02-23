@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="URLFile">
+    <properties size="1">
+        <entry key="tool" value="url"/>
+    </properties>
+    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="1">
+                <item _jt="string" index="0" value="url"/>
+            </value>
+        </entry>
+    </nlsValues>
+</rootObject>
