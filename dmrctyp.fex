@@ -1,0 +1,139 @@
+-*DM_JOB_TYPE=1
+-*DM_USERID=dm
+-*DM_REQ_ACT=N
+-*DM_REQ_DESC=Rectype used to create flat file with two record types
+-*-----------------------------------------------------------------------------*
+-* Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+-* @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+-*-----------------------------------------------------------------------------*
+-:START_PRC
+SET PANEL=9999
+SET NWTIMESTAMP=ON
+SET MORE=OFF
+SET 2PARTNAME=ON
+-RUN
+-*[Variables to Control Request]
+-SET &&CM__TARGET1 = 'dmstart';
+-SET &&CM__TARGET2 = 'dmterm';
+-SET &&CM__AUTHOR = 'dm';
+-SET &&CM__REQUEST = 'dmrctyp';
+-SET &&CM__RETURN = 0;
+-SET &&CM__FOCCPU = &FOCCPU.EVAL;
+-SET &DISP_JOB = PTHDAT (7, 'dmrctyp','A7');
+-DEFAULT &DBMSERROR = 10000000
+-DEFAULT &STARTAT = 0
+-DEFAULT &STOPAT  = 1000000000
+-TYPE  (ICM18122) Request - dmrctyp (Owner: dm) submitted.
+-GOTO :DEP_MAIN;
+-:DEP_MAIN
+-TYPE  (ICM18742) dmstart type Flat File Existing target
+-TYPE  (ICM18742) dmterm type Flat File Existing target
+SET CASESTAT=EXTENDED
+SQL SET UPCASE=OFF; END
+-TYPE  (ICM18429) Issuing PREPARE
+SQL PREPARE SQLIN FROM
+SELECT
+   T1.ID_NUM ,  --Employee Indentification Number
+   T1.START_DATE ,  --Date of employment
+   T1.TERM_DATE ,  --Termination Date
+   T1.STATUS ,  --Job Status
+   T1.POSITION ,  --Job Position
+   T1.PAYSCALE  --Pay Level
+FROM
+   baseapp.dmhr T1
+END
+-RUN
+-SET &&CM__RETURN = IF &FOCERRNUM EQ 14104 THEN 0 ELSE &FOCERRNUM;
+-IF (&&CM__RETURN NE 0) GOTO :ENDJOB;
+-IF (&SQLAPT EQ 'APT') GOTO :SKIPHOLD;
+-TYPE  (ICM18440) Request will process data via NON-Pass Through (NON-APT)
+-TYPE  (ICM18451) HOLD file will be created for output file named: SQLIN.
+SQL EXECUTE SQLIN;
+TABLE ON TABLE HOLD AS
+SQLIN
+ FORMAT INTERNAL
+IF RECORDLIMIT EQ &STOPAT
+END
+-RUN
+-SET &&CM__RETURN = IF &LINES EQ 0 THEN 18708 ELSE &FOCERRNUM;
+-IF (&&CM__RETURN NE 0) GOTO :ENDJOB;
+-:SKIPHOLD
+CREATE FILE baseapp/dmterm DROP
+-RUN
+-TYPE  (ICM18743) Starting Load
+COMBINE FILES
+     baseapp/dmstart PREFIX T01
+ AND baseapp/dmterm PREFIX T02
+ AS MULTIFILE
+MODIFY FILE MULTIFILE
+ FIXFORM FROM SQLIN ALIAS PROPAGATE
+ GOTO MATCHIT1
+ CASE MATCHIT1
+  COMPUTE
+   T01RECTYPE/A1='S';
+   T01ID_NUM/I4=E01;
+   T01START_DATE/A8YYMD=E02;
+   T01STATUS/A10=IF E03 IS MISSING THEN E04 ELSE ' ';
+   T01POSITION/A2=E05;
+   T01PAYSCALE/I2=E06;
+  MATCH T01ID_NUM
+   ON MATCH INCLUDE
+   ON NOMATCH INCLUDE
+  GOTO MATCHIT2
+ ENDCASE
+ CASE MATCHIT2
+  COMPUTE
+   T02RECTYPE/A1='T';
+   T02ID_NUM/I4=E01;
+   T02TERM_DATE/A8YYMD=E03;
+   T02STATUS/A10=E04;
+   T02SEVERANCE/I10=E06 * 500;
+  VALIDATE
+   TEST1=E03 IS NOT MISSING;
+  ON INVALID GOTO TOP
+  MATCH T02ID_NUM
+   ON MATCH INCLUDE
+   ON NOMATCH INCLUDE
+  GOTO TOP
+ ENDCASE
+ CASE AT START
+  START &STARTAT
+  STOP  &STOPAT
+  STOP  DBMSERRORS &DBMSERROR
+  LOG DBMSERR MSG OFF
+  LOG DUPL    MSG OFF
+  LOG INVALID MSG OFF
+  LOG NOMATCH MSG OFF
+  LOG FORMAT  MSG OFF
+  LOG ACCEPT  MSG OFF
+  LOG TRANS   MSG OFF
+  TYPE " (ICM18682) Check set to : 0"
+  CHECK OFF
+ ENDCASE
+ DATA VIA SQLGET
+END
+-RUN
+-TYPE  (ICM18744) Ending Load
+-SET &&CM__RETURN = IF &TRANS EQ 0 THEN 18708 ELSE &FOCERRNUM;
+-:ENDJOB
+-TYPE  (ICM18040) Return Code = &&CM__RETURN
+SET CASESTAT=OFF
+SQL SET UPCASE=ON; END
+SET EMGSRV=OFF
+SQL PURGE SQLIN;
+END
+-RUN
+FI SQLIN CLEAR
+SET EMGSRV=ON
+-TYPE  (ICM18076) Request: dmrctyp - finished processing
+-SET &&CM__FOCCPU = &FOCCPU.EVAL - &&CM__FOCCPU;
+-TYPE  (ICM18007) CPU Time : &&CM__FOCCPU
+-*[Main Condition]
+-*[Main End]
+-*[Dependence]
+-:ENDDEP
+SET PANEL=0
+SET NWTIMESTAMP=OFF
+SET MORE=ON
+SET 2PARTNAME=OFF
+-RUN
