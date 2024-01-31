@@ -1,0 +1,99 @@
+-DEFAULT &COUNTRY = '_FOC_NULL'; 
+
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+-DEFAULTH &WF_HTMLENCODE=OFF;
+SET HTMLENCODE=&WF_HTMLENCODE
+
+SET ARGRAPHENGINE=JSCHART
+-DEFAULTH &WF_EMPTYREPORT=ON;
+SET EMPTYREPORT=&WF_EMPTYREPORT
+
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+-DEFAULTH &WF_STYLE_UNITS='PIXELS';
+-DEFAULTH &WF_STYLE_HEIGHT='405.0';
+-DEFAULTH &WF_STYLE_WIDTH='770.0';
+
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+-DEFAULT &TIME_YEAR = _FOC_NULL;
+-IF &TIME_YEAR EQ '_FOC_NULL' THEN GOTO :NOREPORT; 
+
+GRAPH FILE retail_samples/wf_retail_lite
+-* Created by Info Assist for Graph
+SUM WF_RETAIL_LITE.WF_RETAIL_SALES.QUANTITY_SOLD
+BY WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.BUSINESS_REGION AS ''
+BY WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_MTH
+WHERE WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_YEAR EQ &TIME_YEAR.(|FORMAT=I4).Year:.;
+HEADING
+"&TIME_YEAR Monthly Shipments by Region"
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET UNITS &WF_STYLE_UNITS
+ON GRAPH SET HAXIS &WF_STYLE_WIDTH
+ON GRAPH SET VAXIS &WF_STYLE_HEIGHT
+ON GRAPH SET LOOKGRAPH BAR
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+*GRAPH_SCRIPT
+
+setPieDepth(0);
+setPieTilt(0);
+setDepthRadius(0); 
+setPlace(true); 
+setCurveFitEquationDisplay(false); 
+
+*END
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/ibi_themes/Warm.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, ORIENTATION=LANDSCAPE, $
+TYPE=DATA, COLUMN=N1, BUCKET=color, $
+TYPE=DATA, COLUMN=N2, BUCKET=x-axis, $
+TYPE=DATA, COLUMN=N3, BUCKET=y-axis, $
+TYPE=HEADING, JUSTIFY=CENTER, $
+TYPE=HEADING, LINE=1, ITEM=1, OBJECT=TEXT, FONT='ARIAL', SIZE=12, COLOR=RGB(32 0 32), STYLE=NORMAL, $
+*GRAPH_SCRIPT
+
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setLegendPosition(1);
+*GRAPH_JS_FINAL
+"xaxis": {
+"title": {
+"visible": false
+}
+},
+"legend": {
+"scroll": {
+"enabled": false
+}
+},
+"pieProperties": {
+    "holeSize": "0%"
+},
+"blaProperties": {
+    "seriesLayout": "stacked"
+},
+"agnosticSettings": {
+    "chartTypeFullName": "Bar_Stacked"
+}
+
+*END
+ENDSTYLE
+END
+
+-EXIT
+
+-:NOREPORT
+-HTMLFORM BEGIN
+<html>
+<body style="text-align:center;font-family:Arial;font-size:13px;color:#666">
+<br>
+<br>
+<br>
+<b>Select a Year to see this report...</b>
+</body>
+</html>
+-HTMLFORM END 
+
+-RUN

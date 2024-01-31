@@ -1,0 +1,92 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET HTMLENCODE=OFF
+SET ARGRAPHENGINE=JSCHART
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+
+-*COMPONENT=Define_wf_retail_lite
+DEFINE FILE retail_samples/wf_retail_lite
+ STATE_PROV_NAME_COUNTRY_NAME/A72=WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.STATE_PROV_NAME || ( ', ' | WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.COUNTRY_NAME ) ;
+ CITY_NAME_STATE_PROV_NAME_COUNTRY_NAME/A124=WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.CITY_NAME || ( ', ' | WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.STATE_PROV_NAME ) || ( ', ' | WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.COUNTRY_NAME ) ;
+END
+-DEFAULTH &WF_STYLE_UNITS='PIXELS';
+-DEFAULTH &WF_STYLE_HEIGHT='405.0';
+-DEFAULTH &WF_STYLE_WIDTH='770.0';
+
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+GRAPH FILE retail_samples/wf_retail_lite
+-* Created by Info Assist for Graph
+SUM WF_RETAIL_LITE.WF_RETAIL_SALES.REVENUE_US
+BY CITY_NAME_STATE_PROV_NAME_COUNTRY_NAME AS 'Store,City'
+WHERE WF_RETAIL_LITE.WF_RETAIL_STORE_SALES.STORE_FRONT ;
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET ARGRAPHENGIN JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET GRWIDTH 1
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET UNITS &WF_STYLE_UNITS
+ON GRAPH SET HAXIS &WF_STYLE_WIDTH
+ON GRAPH SET VAXIS &WF_STYLE_HEIGHT
+ON GRAPH SET LOOKGRAPH BUBBLEMAP
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+*GRAPH_SCRIPT
+setPlace(true); 
+setPieDepth(0);
+setPieTilt(0);
+setDepthRadius(0); 
+setCurveFitEquationDisplay(false); 
+
+*END
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/javaassist/intl/EN/combine_templates/ENWarm.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, CHART-LOOK=com.esri.map, $
+TYPE=DATA, COLUMN=N2, BUCKET=color, $
+*GRAPH_SCRIPT
+
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+*GRAPH_JS_FINAL
+"extensions": {
+    "com.esri.map": {
+        "overlayLayers":             [
+                {
+                    "ibiDataLayer": {
+                        "map-location": {
+                            "map_by_field": "WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.CITY_NAME",
+                            "parameters":                                 [
+                                    {
+                                        "parm_field": "WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.CITY_NAME",
+                                        "parm_georole": "CITY"
+                                    }, 
+                                    {
+                                        "parm_field": "WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.STATE_PROV_NAME",
+                                        "parm_georole": "STATE"
+                                    }, 
+                                    {
+                                        "parm_field": "WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.COUNTRY_NAME",
+                                        "parm_georole": "COUNTRY"
+                                    }
+                                ],
+                            "returned_georole": "CITY"
+                        }
+                    }
+                }
+            ]
+    }
+},
+"legend": {
+    "visible": true
+},
+"pieProperties": {
+    "holeSize": "0%"
+},
+"agnosticSettings": {
+    "chartTypeFullName": "Bubblemap"
+}
+
+*END
+ENDSTYLE
+END
+
+-RUN

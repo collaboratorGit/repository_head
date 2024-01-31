@@ -1,0 +1,10 @@
+PAGE_HEADING=An example that inserts a custom Info button and Download data menu, as well as custom panel background coloring
+CONT_TITLE_1=Revenue by Product Subcategory
+PANE_TITLE_4=Chart 1
+CONT_TITLE_2=Profit vs. Revenue by Product Category
+PANE_TITLE_5=Chart 2
+CONT_TITLE_6=Notes
+FILTER_CONTROL_LABEL_10=Click the Info button in the first panel and then try the custom Download data menu in either panel.  You can also change the chart themes to Midnight and see how the custom panel background looks through the transparent chart background. These are some things you can do with embedded CSS and Javascript. To see the embedded code, enable the DesignerJS technical preview setting in the Administration console and then  use the tabs below the workbook canvas. You must have the Resource Editor privilege to see the embedded resource properties/tabs. At this time the embedded resources are only loaded at runtime; not in designer or preview mode. The code provided in this example is subject to change and illustrates things that can be done with the Designer API which is not yet published. 
+LABEL_TOOLTIP_11=
+CONT_TITLE_8=Panel 4
+PANE_TITLE_9=

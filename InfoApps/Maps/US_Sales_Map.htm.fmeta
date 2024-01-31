@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" srtorder="-10" type="HtmlFile">
+    <properties size="2">
+        <entry key="loadiniframe" value="yes"/>
+        <entry key="tool" value="htmlcanvas"/>
+    </properties>
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mappa Vendite US"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Карта продаж для США"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa sprzedaży w Stanach Zjednoczonych"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="미국 판매 지도"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="ABD Satış Haritası"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa de Vendas dos Estados Unidos"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Carte Ventes US"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Karte USA-Verkäufe"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="USA értékesítési térkép"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="USA-salgskort"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="美國業績圖"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa de ventas de EE. UU."/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa de ventas de EE. UU."/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Verkoopkaart VS"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Carte Ventes US"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Yhdysvaltain myyntikartta"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Försäljningskarta USA"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="US Sales Map"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa US prodejů"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="美国销售图"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="米国売上マップ"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Amerikansk salgskart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa de Vendas dos Estados Unidos"/>
+            </value>
+        </entry>
+    </nlsValues>
+</rootObject>

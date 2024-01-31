@@ -1,0 +1,18 @@
+/*Copyright 1996-2018 Information Builders, Inc. All rights reserved.*/
+/* $Revision: 1.0  $: */
+
+.custom-background1 {
+   background-color: #3FA0DD;
+}
+
+.custom-background1 .ibx-button:focus {
+   background-color: rgba(0,0,0,.1);
+}
+
+.custom-background2 {
+   background-color: #7462B7;
+}
+
+.custom-background2 .ibx-button:focus {
+   background-color: rgba(0,0,0,.1);
+}

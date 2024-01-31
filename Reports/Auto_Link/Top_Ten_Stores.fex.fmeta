@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" appName="retail_samples" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="7">
+        <entry key="CIObject" value="on"/>
+        <entry key="LastDescribed" value="1706721994230"/>
+        <entry key="autoDescribe" value="on"/>
+        <entry key="includeCIO" value="on"/>
+        <entry key="masters" value="&quot;retail_samples/wf_retail_lite&quot;"/>
+        <entry key="skipamper" value="on"/>
+        <entry key="tool" value="infoAssist,report,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="_IA_Metadata"/>
+            <value _jt="string" value="-* Created By InfoAssist , ON: March 10, 2016, Version: HEAD,B6979A&#10;-*Do not delete or modify the comments below&#10;*-INTERNAL_COMMENT LINE#0$PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8IS0tMS4wLS0+PFJvb3QgcmVsZWFzZT0iOS45LjkuOSIgdmVyc2lvbj0iMS4xIj4NCiAgICA8T2JqZWN0IG9iamVjdElkPSJUYWJsZV8xIj4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9ImNvbXBvbmVudEN1c3RvbVRpdGxlIiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+ZmFsc2U8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iTGlua2VkU29ydHMiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPldGX1JFVEFJTF9MSVRFLldGX1JFVEFJTF9TQUxFUy5RVUFOVElUWV9TT0xELDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJPcHRpb25hbFBhcmFtcyIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+TU9ERUwsPC9Qcm9wZXJ0eT4NCiAgICA8L09iamVjdD4NCiAgICA8T2JqZWN0IG9iamVjdElkPSJHTE9CQUwiPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iU2FtcGxlRGF0YSIgdHlwZT0iamF2YS5sYW5nLkJvb2xlYW4iPmZhbHNlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ikdsb2JhbFJlY29yZExpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41MDA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsUnVuUmVjb3JkTGltaXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsT3B0aW1pemF0aW9uIiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+dHJ1ZTwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJmaWVsZERpc3BsYXlNb2RlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5sYWJlbDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJwcmVmaXhEaXNwbGF5TW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyIvPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iQWN0aXZlX1N0eWxlX1VzZXJfdHlwZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+cG93ZXI8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iTGlua2VkU29ydHMiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPm5vdCBpbml0aWFsaXplZDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJTYXZlU3RhcnRUb29sSW5UeXBlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5DaGFydDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJHbG9iYWxWYWx1ZXNQYWdpbmciIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjQ8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iRm9jZXhlY1ByZWZlcmVuY2VzIiB0eXBlPSJNYXAiPg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVNsaWNlcnNUYWJFZGl0SW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5U2VyaWVzVGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJhdXRvRHJpbGxTY3JpcHQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciLz4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9InJ1bk9uU3RhcnR1cERlZmVycmVkSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5RWRpdE1vZGVJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlIb21lVGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJ0YXJnZXRBdXRvTGlua0luZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJtZXRhZGF0YV92aWV3cyIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+TWV0YURhdGFUcmVlLlZJRVdfRElNUzwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5RGF0YVRhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iaW5mb0Fzc2lzdE1vZGVBbGxvd2VkSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJlbmFibGVBdXRvTGlua0luZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkZWZhdWx0X3ByZXZpZXdfcGFnZWxpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41PC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlJbnNlcnRUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9InJ1bk9uU3RhcnR1cEluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5TGF5b3V0VGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5SW50ZXJhY3RpdmVNb2RlSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj50cnVlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRy&#10;*-INTERNAL_COMMENT LINE#1$eSBrZXk9ImVuYWJsZUluZm9NaW5pX1NhdmUiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9wcmV2aWV3X3BhZ2VsaW1pdF9sYXlvdXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjE8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVNsaWNlcnNUYWJJbnRlcmFjdGl2ZUluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkZWZhdWx0X2NvbXBvc2VfZm9ybWF0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5QREY8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVJlc291cmNlc0ZpZWxkVGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5Rm9ybWF0VGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj50cnVlPC9FbnRyeT4NCiAgICAgICAgPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9ImNhc2NhZGVOYW1lcyIgdHlwZT0iTWFwIi8+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJNYXN0ZXJfRmlsZXMiIHR5cGU9IlNldCI+DQogICAgICAgICAgICA8RW50cnkgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+cmV0YWlsX3NhbXBsZXMvd2ZfcmV0YWlsX2xpdGU8L0VudHJ5Pg0KICAgICAgICA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0ibWV0YWRhdGFWaWV3QXMiIHR5cGU9Ik1hcCI+DQogICAgICAgICAgICA8RW50cnkga2V5PSJyZXRhaWxfc2FtcGxlcy93Zl9yZXRhaWxfbGl0ZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+TWV0YURhdGFUcmVlLlZJRVdfRElNUzwvRW50cnk+DQogICAgICAgIDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJlbmFibGVQcmV2aWV3IiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+dHJ1ZTwvUHJvcGVydHk+DQogICAgPC9PYmplY3Q+DQo8L1Jvb3Q+DQo=&#10;-*Do not delete or modify the comments above&#10;"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Negozi Top Ten"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="10 лучших магазинов"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Dziesięć najlepszych sklepów"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="İlk On Mağaza"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="상위 10대 스토어"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="10 Melhores Lojas"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="10 premiers magasins"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Umsatzstärkste 10 Filialen"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Legjobb tíz üzlet"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top 10-butikker"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="前十位熱門商店"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Diez tiendas principales"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Diez tiendas principales"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top 10 winkels"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="10 premiers magasins"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Kymmenen parasta myyntipaikkaa"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Bästa 10 butiker"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Top Ten Stores"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prvních deset prodejen"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="十大商店"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="上位 10 店舗"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Ti beste butikker"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Dez Lojas Principais"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="1">
+        <item _jt="IBRFexParameter" amperFormat="A50V" datadomain="MODEL" description="Product Model:" index="0" multiselect="false" parent="" parmname="MODEL" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="12" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Product Model:" format="A50V" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="MODEL" noSelection="false" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="prompt"/>
+                <values class="java.util.LinkedHashMap"/>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>

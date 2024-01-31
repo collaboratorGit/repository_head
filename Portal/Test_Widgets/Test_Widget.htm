@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no'>
+<script type="text/javascript" src="/ibi_apps/jquery/js/jquery.min.js"></script>
+<script>
+$(window).resize(function(){
+writeDimension();
+});
+
+function getMobileOperatingSystem()
+{
+	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+	if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i))
+	{
+		return 'iOS';
+
+	}
+	else if (userAgent.match(/Android/i))
+	{
+
+		return 'Android';
+	}
+	else
+	{
+		return 'unknown';
+	}
+};
+
+function writeDimension() {
+	var os = getMobileOperatingSystem();
+	var bLandscape = (os == 'iOS') && !((window.orientation == 0) || (window.orientation == 180)) || (os == 'Android') && ((window.orientation == 90) || (window.orientation == -90));
+
+	var w = $('div').first().width();
+	var h = $('div').first().height();
+	var top_w = top.window.innerWidth; 
+	var top_h = top.window.innerHeight; 
+	var screen_w = (os == 'Android') ? screen.width : (bLandscape ? screen.height : screen.width);
+	var screen_h = (os == 'Android') ? screen.height : (bLandscape ? screen.width : screen.height);
+
+	/* Device Dimensions */
+	$('#w3').text(screen_w);
+	$('#h3').text(screen_h);
+
+	/* Browser Dimensions */
+	$('#w2').text(top_w);
+	$('#h2').text(top_h);
+
+	/* Page Dimensions */
+        $('#w4').text( parseInt($('.bip-page:visible', parent.document).css("width"),10) );
+
+	/* Widget Dimensions */
+	$('#w1').text(w);
+	$('#h1').text(h);
+}
+
+</script>
+</head>
+<body style="margin:0;overflow:hidden;color:white" onload="writeDimension();">
+<div style="width:100%;height:100%;background-color:#393965;font-family:TREBUCHET MS;vertical-align:middle;text-align:center">
+<table style="left:0px;right:0px;top:0px;bottom:0px;margin:auto;width:250px">
+<tr><td></td><td><b>Width</b></td><td><b>Height</b></td></tr>
+<tr><td>Screen</td><td id="w3"></td><td id="h3"></td></tr>
+<tr><td>Web Browser</td><td id="w2"></td><td id="h2"></td></tr>
+<tr><td>Portal Page</td><td id="w4"></td><td id="h4">n/a</td></tr>
+<tr><td>Widget (inside)</td><td id="w1"></td><td id="h1"></td></tr>
+</table>
+</div>
+</body>
+</html>
