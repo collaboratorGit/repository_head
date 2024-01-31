@@ -1,0 +1,258 @@
+-*------------------------------------------------------------------------
+-* Footer = ST - Subtotal, SF - Subfoot, NONE - None
+-* ScrollY = false, or pixels
+-* OrderDisabledFlag = * - Order is disabled
+-* SearchDisabledFlag = * - Search is disabled
+-* NumOfGroupBys should only be used when using Overs
+-*------------------------------------------------------------------------
+-DEFAULTH &Footer = 'NONE';
+-DEFAULTH &NumOfLeftColumnFreeze = 0;
+-DEFAULTH &OrderDisabledFlags = '';
+-DEFAULTH &SearchDisabledFlags = '*';
+-DEFAULTH &ScrollY = 'false';
+-DEFAULTH &NumOfAcrossColumns = '0';
+-DEFAULTH &NumOfGroupBys = '0';
+-DEFAULTH &NumOfFooterLines = 1;
+-DEFAULTH &DisplayPageInfo = 'false';
+-DEFAULTH &DisplayFilter = 'false';
+-DEFAULTH &DisableWrapping = 'true';
+-DEFAULTH &Responsive = 'false';
+-DEFAULTH &GeneralSearch = 'false';
+
+-SET &WS = IF &DisableWrapping EQ 'false' THEN 'normal' ELSE 'nowrap';
+
+-HTMLFORM BEGIN
+<script type="text/javascript" src="./jquery/js/jquery.min.js"></script>
+<script src="./WFServlet.ibfs?IBFS1_action=RUNFEX&|IBFS_path=/WFC/Repository/Retail_Samples/Portal/Responsive_Tables/lib/datatables-min.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="./WFServlet.ibfs?IBFS1_action=RUNFEX&|IBFS_path=/WFC/Repository/Retail_Samples/Portal/Responsive_Tables/lib/datatables-min.css">
+<style>
+a {
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	border: none;
+}
+table.dataTable thead .sorting {
+	background-image: url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQBAMAAADQT4M0AAAAGFBMVEUAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u5jNePWAAAACHRSTlMAMxIHKwEgMWD59H4AAABSSURBVAjXY2BgYFJgAAHzYhDJ6igSAKTYBAUTgJSioKAQAwNzoaCguAFDiCAQuDIkgigxBgiA8cJAVCpQt6AgSL+JoKAzA0gjUBsQqBcBCYhFAAE/CV4zeSzxAAAAAElFTkSuQmCC");
+	background-position: bottom 7px right 3px;
+}
+table.dataTable thead .sorting_asc {
+	background-image: url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQBAMAAADQT4M0AAAAIVBMVEUAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u5meJAOAAAACnRSTlMAMwsqXt+gIBUGxGoDMAAAAFlJREFUCNctzC0SQAAUReEzGNQ3AlHRiSRZFCVZYgeswRL8hLdK7834wj3tAlGP6y7fYHpKS6w6WwbVG0I1NZVnZPG8/DYxOYlnhUYkA06R1s9ESsxR4NIdPhkPFDFYuEnMAAAAAElFTkSuQmCC");
+	background-position: bottom 7px right 3px;
+}
+table.dataTable thead .sorting_desc {
+	background-image: url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQBAMAAADQT4M0AAAALVBMVEUAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7i0NViAAAADnRSTlMAMiweCQITTvDctZZqaTlM310AAABcSURBVAjXY2BgYEtgAAFHERDJqigUAKSYBQUNgFSioKAYAwOLIBA4MASBKFUGQxAlzAAF+94BwWuGKBC1lIFl3rt3Lx0YGCzevWsGSjK9e6cAUlT3HKyW9wADAwDRrBiDy6bKzwAAAABJRU5ErkJggg==");
+	background-position: bottom 7px right 3px;
+}
+table.searchable thead .sorting, table.searchable thead .sorting_asc, table.searchable thead .sorting_desc {
+	background-position: bottom 45px right 0 !important;
+}
+table.dataTable>tbody>tr.child ul li {
+	font-family: TREBUCHET MS;
+	padding: 0;
+	font-size: 9pt;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+	top: 3px;
+	border-radius: 0;
+	background-color: #fff;
+	box-shadow: none;
+	border: 1px solid #666;
+	color: #666;
+	font-size: 13px;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+	content: '-';
+	background-color: inherit;
+}
+th[ALIGN=RIGHT], td[ALIGN=RIGHT] {
+	text-align: right;
+}
+table tr th, table tr td {
+	padding: 3px 6px;
+}
+th img, td img {
+	height: 12px;;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+	padding-right: 20px;
+}
+th, tfoot td {
+	color: #fff !important;
+	background-color: #7F94C4;
+	border: none !important;
+	white-space: nowrap;
+}
+tfoot {
+	color: #fff !important;
+	background-color: #7F94C4;
+	border: none !important;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+	background: #eee;
+}
+thead>tr>th:nth-child(3) {
+	min-width: 50px;
+}
+.row { max-width: 100% }
+.column-search {
+	margin: 6px 0 0!important;
+	height: 28px!important;
+}
+th.sorting .column-search, th.sorting_asc .column-search, th.sorting_desc .column-search {
+	width: calc(100% + 20px)!important;
+}
+.DTFC_LeftBodyWrapper {
+	box-shadow: rgba(0, 0, 0, .16) 3px 0 3px -2px !important;
+	background: #fff;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.DTFC_LeftBodyWrapper > .DTFC_LeftBodyLiner > table {
+}
+.DTFC_LeftFootWrapper>table {
+	border-top: 1px solid #7F94C4;
+}
+.dataTables_scrollBody {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+td {
+	white-space: !IBI.AMP.WS;
+}
+th, td {
+	border-right: 1px solid #fff;
+}
+th:last-child, td:last-child {
+	border-right: none;
+}
+tbody td {
+	background-color: transparent!important;
+}
+</style>
+<script>
+/* Find Max Number of Columns */
+var numOfColumns = 0;
+$('td[colspan]').each(function(){
+   numOfColumns = Math.max( parseInt($(this).attr('colspan')), numOfColumns);
+});
+
+/* Remove Heading */
+$('body>table>tbody table').remove();
+
+/* Remove Empty Lines */
+$('table>tbody>tr>td[colspan='+numOfColumns+']').each(function(){
+   if ($(this).text().trim()=='')
+      $(this).parent().remove();
+});
+$('table>tbody>tr').each(function(){
+   if ($(this).text().trim()=='')
+      $(this).remove();
+});
+
+/* Create THEAD */
+$('body>table').width('100%').prepend('<thead></thead>');
+$('body>table>tbody>tr:first').appendTo('body>table>thead');
+$('body>table>thead>tr:first').html( $('body>table>thead>tr:first').html().replace(/\<td/g,'\<th').replace(/\<\/td\>/g, '\<\/th\>') );
+
+/* If Across - Move Additional Across Headings into THEAD - Assumes no Across Title */
+for (var i=1; i<=!IBI.AMP.NumOfGroupBys;; i++) {
+   $('body>table>tbody>tr:nth-of-type('+i+')').appendTo('body>table>thead');
+   $('body>table>thead>tr:nth-of-type('+(i+1)+')').html( $('body>table>thead>tr:nth-of-type('+(i+1)+')').html().replace(/\<td/g,'\<th').replace(/\<\/td\>/g, '\<\/th\>') );
+}
+
+/* If Overs - Move Additional Across Headings into THEAD - Assumes no Across Title */
+if (!IBI.AMP.NumOfGroupBys;>0) {
+   for (var i=1; i<=!IBI.AMP.NumOfGroupBys;; i++) {
+      var lastValue='';
+      $('tbody>tr>td:nth-of-type('+i+')').each(function(index){
+         if ($(this).text().trim()=='')
+            $(this).text( lastValue );
+         lastValue = $(this).text();
+      });
+   }
+}
+
+/* Create TFOOT */
+$('body>table').append('<tfoot></tfoot>');
+
+if ('!IBI.AMP.Footer;' == 'ST') {
+   $('body>table>tbody>tr:last').appendTo('body>table>tfoot');
+   $('body>table>tfoot>tr:first').html( $('body>table>tfoot>tr:first').html().replace(/\<td/g,'\<th').replace(/\<\/td\>/g, '\<\/th\>') );
+   var colSpan = $('body>table>tfoot>tr>th:first').attr('colspan');
+   if (typeof colSpan !== 'undefined') {
+      $('body>table>tfoot>tr>th:first').removeAttr('colspan');
+      for (var i=0; i<colSpan*1-1; i++)
+         $('body>table>tfoot>tr>th:first').after('<th></th>');
+   }
+}
+else if ('!IBI.AMP.Footer;' == 'SF') {
+   $('body>table>tbody>tr:nth-last-child(-n+!IBI.AMP.NumOfFooterLines;)').appendTo('body>table>tfoot');
+   $('body>table>tfoot>tr:first').html( $('body>table>tfoot>tr').html().replace(/\<td/g,'\<th').replace(/\<\/td\>/g, '\<\/th\>') );
+}
+
+/* Add group class to rows with colspan */
+$('body > table > tbody > tr').each(function(){
+   if ($(this).find('td[colspan]').length>0)
+      $(this).addClass('group');
+});
+
+/* Create Column Definitions to disable sorting */
+var columnDefs = [];
+var orderDisabledColumns = ('!IBI.AMP.OrderDisabledFlags;'=='*')? [] : ('!IBI.AMP.OrderDisabledFlags;'.trim()=='')? []: '!IBI.AMP.OrderDisabledFlags;'.trim().split(',');
+var ordering = (orderDisabledColumns=='*')? false : true;
+for (var i=0; i<orderDisabledColumns.length; i++) {
+   columnDefs.push({ "orderable": false, targets: orderDisabledColumns[i]-1 });
+}
+//columnDefs.push({ "sWidth": "50px", targets: 2 });
+
+/* Set Paging Flag */
+var paging = ('!IBI.AMP.ScrollY;'=='false')? true: false;
+
+/* Create DOM Settings */
+var dom = 'rt';
+if (!IBI.AMP.DisplayFilter;)
+   dom = (paging)? '<"row"<"small-6 columns"l><"small-6 columns"f>>' + dom : '<"row"<"small-12 columns"f>>' + dom;
+if (!IBI.AMP.DisplayPageInfo;)
+   dom += (paging)? '<"row"<"small-6 columns"i><"small-6 columns"p>>' :  '<"row"<"small-12 columns"i>>';
+dom += '<"clear">';
+
+/* Initialize DataTable */
+var table = $('body>table').DataTable({
+    searching: !IBI.AMP.GeneralSearch;,
+    info: false,
+    ordering: ordering,
+    scrollX: true,
+    responsive: !IBI.AMP.Responsive;,
+    fixedColumns: { leftColumns: !IBI.AMP.NumOfLeftColumnFreeze; },
+    columnDefs: columnDefs,
+    aaSorting: [],
+    scrollY: !IBI.AMP.ScrollY;,
+    initComplete: function(settings, json) {
+        if ('!IBI.AMP.SearchDisabledFlags;'!='*') {
+            $('table:first').addClass('searchable');
+            /* Add Column Search */
+            $('.DTFC_LeftHeadWrapper thead:first th, .dataTables_scrollHeadInner thead:first th').each(function(index){
+                $(this).append('<input class="column-search" type="text" index="'+index+'">'); 
+            });
+            var disabledColumns = ('!IBI.AMP.SearchDisabledFlags;'.trim()=='')? [] : '!IBI.AMP.SearchDisabledFlags;'.split(',');
+            for (var i=0; i<disabledColumns.length; i++)
+                $('thead:first tr th:nth-of-type('+disabledColumns[i]+') input.column-search').attr('disabled', 'disabled');
+            setTimeout(function(){
+                $('.column-search').on('touchstart click', function(e){ e.stopPropagation(); e.preventDefault(); });
+                $('.column-search').keyup(function(e){
+                    table.columns( this.getAttribute('index')*1 ).search( this.value ).draw(); 
+                });
+            },100);
+        }
+    },
+    language: {
+        "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+    },
+    paging: paging,
+    dom: dom
+});
+$('table').css('visibility', 'visible');
+$('#loading').remove();
+table.draw();
+</script>
+-HTMLFORM END

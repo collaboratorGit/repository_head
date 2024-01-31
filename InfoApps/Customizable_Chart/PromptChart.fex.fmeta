@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="2">
+        <entry key="LastDescribed" value="1706730014468"/>
+        <entry key="hidden" value="on"/>
+    </properties>
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Richiesta Grafico"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Оперативная диаграмма"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Wykres z zapytaniami"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="프롬트 도표"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Bilgi İstemi Grafiği"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Gráfico de Aviso"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Graphique Invite"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt diagram"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Eingabeaufforderung"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Diagram med prompt"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="提示圖表"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Diagrama de avisos"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Diagrama de avisos"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt diagram"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Graphique Invite"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Kehotekaavio"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Promptdiagram"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Prompt Chart"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Graf s výzvou"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="提示图表"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="プロンプトグラフ"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Forespørselsdiagram"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Gráfico de Pedidos"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="6">
+        <item _jt="IBRFexParameter" amperFormat="" datadomain="RP_FL01S01_Sum1" description="Measures" index="0" multiselect="false" parent="" parmname="RP_FL01S01_Sum1" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="12" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Measures" format="" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="RP_FL01S01_Sum1" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="WF_RETAIL_LITE.WF_RETAIL_SALES.GROSS_PROFIT_US" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_SALES.GROSS_PROFIT_US"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_SALES.GROSS_PROFIT_US"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="staticType"/>
+                <values class="java.util.LinkedHashMap">
+                    <entry>
+                        <key _jt="string" value="Gross Profit"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_SALES.GROSS_PROFIT_US"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Cost of Goods"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_SALES.COGS_US"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Discount"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_SALES.DISCOUNT_US"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Quantity Sold"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_SALES.QUANTITY_SOLD"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Revenue"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_SALES.REVENUE_US"/>
+                    </entry>
+                </values>
+                <parameters _jt="HashMap"/>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="" datadomain="RP_FL02B01_Sort2" description="ColorBy" index="1" multiselect="false" parent="" parmname="RP_FL02B01_Sort2" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="13" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="ColorBy" format="" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="RP_FL02B01_Sort2" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="staticType"/>
+                <values class="java.util.LinkedHashMap">
+                    <entry>
+                        <key _jt="string" value="Product Category"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Gender"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_CUSTOMER.GENDER"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Sale Quarter"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_QTR"/>
+                    </entry>
+                </values>
+                <parameters _jt="HashMap"/>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="" datadomain="RP_FL03B02_Sort3" description="XAxis" index="2" multiselect="false" parent="" parmname="RP_FL03B02_Sort3" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="14" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="XAxis" format="" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="RP_FL03B02_Sort3" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_YEAR" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_YEAR"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_YEAR"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="staticType"/>
+                <values class="java.util.LinkedHashMap">
+                    <entry>
+                        <key _jt="string" value="Sale Year"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_TIME_SALES.TIME_YEAR"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Product Category"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Product Subcategory"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_SUBCATEG"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Store Business Region"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.BUSINESS_REGION"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Store Business Sub Region"/>
+                        <value _jt="string" value="WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.BUSINESS_SUB_REGION"/>
+                    </entry>
+                </values>
+                <parameters _jt="HashMap"/>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A15V" datadomain="BUSINESS_REGION" description="Business Region:" index="3" multiselect="true" parent="" parmname="BUSINESS_REGION" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="15" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Business Region:" format="A15V" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="BUSINESS_REGION" noSelection="true" operation="OR" parent="" proc="" sortFields="" sortOrder="" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="WF_RETAIL_LITE.WF_RETAIL_GEOGRAPHY_STORE.BUSINESS_REGION" file="WF_RETAIL_LITE">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap"/>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="YYMD" datadomain="TIME_DATE" description="Date:" index="4" multiselect="false" parent="" parmname="TIME_DATE" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="16" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Date:" format="YYMD" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="TIME_DATE" noSelection="false" parent="" proc="" sortFields="" sortOrder="" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="prompt"/>
+                <values class="java.util.LinkedHashMap"/>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="YYMD" datadomain="TIME_DATE2" description="Date:" index="5" multiselect="false" parent="" parmname="TIME_DATE2" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="17" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Date:" format="YYMD" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="TIME_DATE2" noSelection="false" parent="" proc="" sortFields="" sortOrder="" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="prompt"/>
+                <values class="java.util.LinkedHashMap"/>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>

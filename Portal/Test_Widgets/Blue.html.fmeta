@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="HtmlFile">
+    <properties size="2">
+        <entry key="ThumbnailDateTime" value="1522000412483"/>
+        <entry key="ThumbnailType" value="png"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="ThumbnailImg"/>
+            <value _jt="string" value="iVBORw0KGgoAAAANSUhEUgAAAbgAAAFACAYAAADOC2nHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4gMZETE4DlIEhwAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAAEz0lEQVR4nO3VQQ0AIBDAsAP/nkEFIVlaBfttzZwzABCzfwcAwAsGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQZHAAJBkcAEkGB0CSwQGQdAESjAR+Lip9jQAAAABJRU5ErkJggg=="/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Синий"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Niebieski"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mavi"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="파란색"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blue"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Azul"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Bleu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Kék"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blau"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blå"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="藍色"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Azul"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Azul"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blauw"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="כחול"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Bleu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Sininen"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blue"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="أزرق"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blå"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blue"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blue"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Modrá"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="蓝色"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="青"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Blå"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Azul"/>
+            </value>
+        </entry>
+    </nlsValues>
+</rootObject>

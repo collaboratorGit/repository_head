@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" srtorder="21" type="FexFile">
+    <properties size="6">
+        <entry key="IntentPhrase" value="What is my inventory"/>
+        <entry key="LastDescribed" value="1706730008620"/>
+        <entry key="ThumbnailDateTime" value="1530464883405"/>
+        <entry key="ThumbnailType" value="png"/>
+        <entry key="masters" value="&quot;retail_samples/wf_retail_lite&quot;"/>
+        <entry key="tool" value="infoAssist,report,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="ThumbnailImg"/>
+            <value _jt="string" value="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"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Comunica Inventario"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="재고 알림"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Dizer Inventário"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Citer Inventaire"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Inventar wiedergeben"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="請提供庫存資料"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Decirme el inventario"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Decirme el inventario"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Citer Inventaire"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="了解库存"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tell Me Inventory"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="2">
+        <item _jt="IBRFexParameter" amperFormat="A30V" datadomain="STORE_NAME" description="Store Name:" index="0" multiselect="false" parent="" parmname="STORE_NAME" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="12" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Store Name:" format="A30V" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="STORE_NAME" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="ASCENDING" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="WF_RETAIL_LITE.WF_RETAIL_STORE_SALES.STORE_NAME" file="retail_samples/WF_RETAIL_LITE">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A40V" datadomain="PRODUCT_CATEGORY" description="Product Category:" index="1" multiselect="false" parent="" parmname="PRODUCT_CATEGORY" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="13" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Product Category:" format="A40V" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="PRODUCT_CATEGORY" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="ASCENDING" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY" file="retail_samples/WF_RETAIL_LITE">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>

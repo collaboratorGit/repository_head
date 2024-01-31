@@ -1,0 +1,28 @@
+#Exported on: 1522015737019
+#Sun Mar 25 18:08:57 EDT 2018
+FC_LABEL_1=Modell\:
+FC_PLACEHOLDER_2=Bis
+FC_PLACEHOLDER_1=Von
+FC_ALL_LABEL_3=Alle Modelle
+FC_ALL_LABEL_2=Alle Kategorien
+FC_ALL_LABEL_1=Alle Regionen
+PANE_TITLE_8=Gewinnvergleich nach Geschlecht
+PANE_TITLE_7=Treemap - Gewinn pro Einheit
+PANE_TITLE_6=Heatmap - Durchschnittliche Rabatte
+PANE_TITLE_5=Filialverkäufe nach Region
+PANE_TITLE_4=Regionaler Gewinn nach Kategorie
+PANE_TITLE_3=Rabatt nach Region
+PANE_TITLE_2=Regionale Verkaufstendenz
+PAGE_HEADING=Einzelhandelsverkäufe-Dashboard
+PANE_TITLE_1=Verkäufe nach Kategorie
+CONT_TITLE_6=Beispiel eines Karussell-Containers
+CONT_TITLE_5=Beispiel eines Tab-Containers
+CONT_TITLE_4=Regionaler Gewinn nach Kategorie
+CONT_TITLE_3=Rabatt nach Region
+CONT_TITLE_2=Regionale Verkaufstendenz
+CONT_TITLE_1=Verkäufe nach Kategorie
+FC_LABEL_6=Bis\:
+FC_LABEL_5=Von\:
+FC_LABEL_4=Kategorie\:
+FC_LABEL_3=Region\:
+FC_LABEL_2=Filiale\:
