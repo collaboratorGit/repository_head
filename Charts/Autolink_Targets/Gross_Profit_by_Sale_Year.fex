@@ -1,0 +1,82 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET HTMLENCODE=OFF
+SET ARGRAPHENGINE=JSCHART
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+
+-DEFAULTH &WF_STYLE_UNITS='PIXELS';
+-DEFAULTH &WF_STYLE_HEIGHT='405.0';
+-DEFAULTH &WF_STYLE_WIDTH='770.0';
+
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+-DEFAULT &STORE_NAME = _FOC_NULL;
+GRAPH FILE retail_samples/wf_retail
+-* Created by Info Assist for Graph
+SUM WF_RETAIL.WF_RETAIL_SALES.GROSS_PROFIT_US
+BY WF_RETAIL.WF_RETAIL_TIME_SALES.TIME_YEAR
+WHERE WF_RETAIL.WF_RETAIL_TIME_SALES.TIME_YEAR EQ 2015 OR 2016;
+WHERE WF_RETAIL.WF_RETAIL_STORE_SALES.STORE_NAME EQ &STORE_NAME.(|FORMAT=A30V).Store Name:.QUOTEDSTRING;
+HEADING
+"Gross Profit Year to Year"
+"&STORE_NAME"
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET ARGRAPHENGIN JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET GRWIDTH 1
+ON GRAPH SET UNITS &WF_STYLE_UNITS
+ON GRAPH SET HAXIS &WF_STYLE_WIDTH
+ON GRAPH SET VAXIS &WF_STYLE_HEIGHT
+ON GRAPH SET GRMERGE ADVANCED
+ON GRAPH SET GRMULTIGRAPH 0
+ON GRAPH SET GRLEGEND 0
+ON GRAPH SET GRXAXIS 1
+ON GRAPH SET LOOKGRAPH GAUGE1
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+*GRAPH_SCRIPT
+setPlace(true); 
+setPieDepth(0);
+setPieTilt(0);
+setDepthRadius(0); 
+setCurveFitEquationDisplay(false); 
+
+*END
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/javaassist/intl/EN/combine_templates/ENIADefault_combine.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, $
+TYPE=HEADING, JUSTIFY=CENTER, $
+TYPE=HEADING, LINE=1, ITEM=1, OBJECT=TEXT, FONT='Trebuchet MS', SIZE=12, COLOR=RGB(66 70 73), STYLE=BOLD, $
+TYPE=HEADING, LINE=2, ITEM=1, OBJECT=TEXT, FONT='Trebuchet MS', SIZE=12, COLOR=RGB(66 70 73), STYLE=BOLD, $
+TYPE=FOOTING, JUSTIFY=LEFT, FONT='ARIAL', SIZE=18, COLOR=RGB(32 0 32), STYLE=NORMAL, $
+*GRAPH_SCRIPT
+
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setTextFormatPreset(getY1Label(),0);
+setPiesPerRow(2);
+setBorderColor(getGaugeBand1(),new Color(255,0,0));
+setDisplay(getGaugeBand2(),true);
+setGaugeRelativeThickness(0.1);
+setGaugeDescending(false);
+setFontSizeAbsolute(getGaugeValue(),true);
+setAutofit(getGaugeValue(),false);
+setPlaceResize(getGaugeValue(),0);
+setTextFormatPreset(getGaugeValue(),10);
+setFontSizeInPoints(getGaugeValue(),14);
+setBorderColor(getGaugeBand4(),new Color(255,255,0));
+setFillColor(getGaugeBand1(),new Color(255,0,0,186));
+setFillColor(getGaugeBand2(),new Color(255,0,0,186));
+setFillColor(getGaugeBand3(),new Color(249,255,20,186));
+setFillColor(getGaugeBand4(),new Color(255,255,0,186));
+setFillColor(getGaugeBand5(),new Color(0,255,0,186));
+*GRAPH_JS_FINAL
+"agnosticSettings": {
+    "chartTypeFullName": "Special_Gauges"
+}
+
+*END
+ENDSTYLE
+END
+
+-RUN

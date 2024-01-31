@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" appName="retail_samples" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="10">
+        <entry key="ChartType" value="Bar_Percent_Horizontal"/>
+        <entry key="LastDescribed" value="1706725972621"/>
+        <entry key="OutputFormat" value="JSCHART"/>
+        <entry key="ThumbnailDateTime" value="1508186432442"/>
+        <entry key="ThumbnailType" value="PNG"/>
+        <entry key="bucketSyntax" value="true"/>
+        <entry key="masters" value="&quot;retail_samples/wf_retail_lite&quot;"/>
+        <entry key="roname" value="IBFS:/WFC/Repository/Retail_Samples/Portal/Retail_Sales_Data.fex"/>
+        <entry key="skipamper" value="on"/>
+        <entry key="tool" value="infoAssist,chart,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="ThumbnailImg"/>
+            <value _jt="string" value="iVBORw0KGgoAAAANSUhEUgAAAbgAAAFACAYAAADOC2nHAABLZElEQVR42u3d6ZNVVZrv8fv/9Mv7uuN2RPe9b+6Lju6qvm3ZZZV22Q5VaonziIioIIoDAqKoiKjgPKGiiDjPDA4oDiiTgoqICk7AuvVZESvjmJ0kOUKe5PeL2JF59tl77bWH83z386y1nvU/ShRFURSNI/2PplyKKIqiKICLoiiKogAuiqIoigK4KIqiKArgoiiKoiiAi6IoigK4KIqiKArgoiiKoiiAi6IoiqIALupHe/bsKfv27cuFiKIoCuDGl954443y9ddf50JEURQFcAFcFEVRABcFcFEURQFcFMBFURQFcFEAF0VRFMBFAVwURVEAF8BFURRFAVwAF0VRFMBFAVwURVEAFwVwURRFAVwUwEVRFAVwUQAXRVEUwAVwURRFAVwAF8BFURQFcFEAF0VRFMBFAVwURVEAFwVwURRFAVwUwEVRFAVwAVwURVEAFwVwURRFAVwUwEVRFAVwUQAXRVEUwEUBXBRFUQB3OAPurQ82lQ+27By1ZeuujeWL3RsOyrJ116dl3RfvDnnZ8NXasu/7D7tu+eWzteXHD9aMq+WXnVvLnu+/HNKy4/ufDrh8s+unGIAogBvvgDt51tPlN1OXj9oyZ9X55Za1Zx6UZfbqv5Z/nv/3Q15Ov/sfy56VR3Td8vWMfygbfvt342rZvvz6suONBUNaHntjY1nyxqZ+l6WrtsQARAFcABfABXABXBTABXABXAAXwAVwUQAXBXABXAAXwEUBXBTABXABXAAXBXBRABfABXABXBTABXABXAAXwEVRABfABXABXAAXBXBRABfABXABXBTARQFcABfABXBRABcFcAFcABfARQFcFMAFcAFcABcFcKOmvXv3ls8//7ysWrWqvP766z3Lm2++WTZt2lR27dpVNmzYUN59992yffv2sm/fvrqfv1u3bi3vvPNO+eyzz8qPP/5YNm7cWFauXPmrcny23Z49e3qO+cUXX5SPPvqofPvttz3lBXABXAAXwEUB3Ijqhx9+KPfff3+ZMGFCmThxYrn00kvrcsUVV5RnnnmmbN68udx0003ltNNOK8uXL68go927d9f9TjnllHLfffeVbdu2lVtuuaVuN2nSpJ5yrrzyyvLaa6/V45D9H3rooXL55ZdX+P38888BXAAXwAVwUQA3eoCbN29e9eR6y5xsCxYsKOedd1554IEHypdfflnXb9mypSxcuLCcffbZ5eGHH+4B3KJFi6qntz99+umn5c477yzXXXddeeKJJ8qOHTsCuAAugAvgogDu0ADurrvuKjNnzqx/165dW8ONwo/33ntvufrqq8tjjz02IMAJhz7//PNl6dKl5cUXXyy33XZb+eCDD/oMUwZwAVwAF0UB3IgAburUqRVUL730Ul20yfHWwArYeGvz58+vYUtel215YLfeeuuvAAd4Tz75ZE85a9asqduD2Pfff1/DmUKW33zzTbn77rvLq6++2hO+DOACuAAugIsCuBEHnLazyZMn17Y3C49OxxKQA7hHH320bvfII4/U9bw3XpjvOgF3xhlnlClTpvSUA4qffPJJ9d6EJ2fPnl0WL15cXnjhhTJr1qwKuRb2DOACuAAugIsCuIMeouSVvfLKK7W9Ddyse+uttyqsBhKi/OWXX8pTTz3V0/lk+vTptaMJCLawZwAXwAVwAVwUwB0SwPHAbr/99nLBBRfUnpCGBwwUcNZpx1uyZEn57rvv6jo9MYU4hToNGQjgArgALoCLArgRB9xll11WvbPnnnuuZ1m3bl2FWAOcUKKOIcKQzz77bNm5c+d/A9xVV11VP3eWI0QJWNdcc00dX9e8NV6dY86dO7esX7++hjEDuAAugAvgogBuRGQcmh6Rc+bMKTNmzPjVorej4QA6iwhHGsO2evXqCjCDwH/66afy8ssv13Vgt2LFitqu1rscPSeFN5ctW1ZB2KmPP/64djwx8LszTBnABXABXBQFcONSAVwAF8BFUQAXwAVwAVwAFwVwUQAXwAVwAVwUwEUBXAAXwAVwUQAXBXABXAAXwEUBXBTABXABXAAXBXABXAAXwAVwURTABXABXAAXwEUBXBTABXABXAAXBXBRABfABXABXBTARQFcABfABXBRABcFcAFcABfARQFcABfABXABXBQFcF0PuDuXvVVuXfbhqC0vbl5SXt368EFZXtjyQLn5tZlDXh5aNbvs3byg65ZdK64vX986dVwtuz58vuze+PqQlrUbdxxweX/zNzEAUQA33gFnstUoiqIogAvgoiiKArgogIuiKArgogAuiqIogIsCuCiKojEJuL1795ZNmzaVe+6551fLfffdV1asWFF+/PHHXNUALoqiqLsAt2/fvrJz584yb968MmXKlHLHHXf0LHfeeWd56qmnArgALoqiqDsB99lnn5Vzzz23rFy5MlcvgIuiKBo/gPvmm2/K3Llzy7PPPpurF8BFURSNH8Dt2LGjXHXVVeWcc84pd911V8+yePHi8vTTTydEGcBFURR1J+C+/fbbsmTJkgq0zkVHk+XLlwdwAVwURVH3AS4K4KIoisY14Pbs2VPefvvtsnDhwrrw4D766KNczQAuiqKoewH3yy+/lOeff75cffXVdXjAvffeW2677bZy/fXXl1WrVuWKBnBRFEXdBzhtcIzqtGnTyoMPPljb21rHE7ADubTBBXBRFEVdCTgwmz59elm0aFH54Ycf6rrt27eXW265pcyePbv89NNPuaoBXBRFUXcBjoQoX3/99TJz5sw6Hu7WW28tN9xwQ7nxxhvL2rVrc0UDuCiKou4EHOlk8sEHH5SHHnqoLo899ljZsGFDrmYAF0VRNGJqzWAHFXBRABdFUTTakhryq6++GnLT14AAZ3C3gdza3T755JNy991314TLnYs2uEcffbS2y0UBXBRF0XD18ccfl/fee698+umntf+H6OGIA27Xrl3lmWeeqam4Pv/88/o/mHUuspu89NJL6WQSwEVRFI0Y4N56662yZs2asm7durJ58+bqcA00bJkQZQAXRVE05gFn8f+HH35Ytm3bVnbv3h3ABXBRFEXjA3Bteeedd8r69etr+1x/3tyQpssxuamhAX0thg5ooxMvjUYXcAuWrik3Ll03KstzGx8uL31+/0FZnt18d5nz8lUjujzw5jVl78Z5XbPsempG2X7j5HGz7Fq3ouze8Mqgl3c2fF3ePsCydlNsy+EOOEPSNm3adMBw5aA9OIC77LLLyjXXXFOeeOKJujzyyCPliiuuKJMnT67/y2iiXc6YuWj0AHfyrKfLb6YuH5VlzqoLyi1rzzwoy+w1p5Z/nv/3I7qcc88/lj0rj+iaZfuV/1A2/Pbvxs2y/ZlZZccbCwa9PPbGxrLkjU39LktXbYkBOEwBJweyjo4cqIH09xi0BydrCZg5aNPPP/9cXnzxxXLddddVAMpVac6477//PncogAvgArgALho24CT0//LLL2vb26h1Mtm5c2dN1cWD06NFt03dOKdOnVpDlFzGp556qiZjHkgjYBTABXABXAAX7Q9wek8aD8dh2rt376D2HzTg2lQ5kivz5HhtV155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BXABXAAXBXABXAAXwAVwURTABXABXAAXwEUBXBTABXABXAAXBXBRABfABXABXBTARQFcABfABXBRABcFcAFcABfARQFcABfABXABXBQFcF0PuCUvvV8eeX3jqC1rvnixvLP9uYOyrPliRXno3cVDXp5dd2/Zt21J1y0/vHlP+fbRBeNq+WHj6vLjtrVDWj7Z9m1Zv+27fpdPv/guBiAK4MY74DpnA4+iKIoCuAAuiqIogIsCuCiKogAuCuCiKIoCuCiAi6IoCuCiAC6KoiiAC+CiKIqiAC6Ai6IoCuCiAC6KoiiAiwK4KIqiAC4K4KIoigK4KICLoigK4AK4KIqiAC4K4KIoigK4KICLoigK4KIALoqiKICLArgoiqIALoDLhYiiKArgArgoiqIALgrgoiiKArgogIuiKArgogAuiqIogIsCuCiKogDuMATcq6++WlauXJkly2G3rFmzJkYgCuDGM+A++eST8uWXX4655amnnhpzdVq/fn15+eWXx+T1YqzfeeedMVevF154oWzYsGHM1Wvbtm1l+fLlMQJRAJcQ5cEXwI01bd++vbz55ptj8np98MEH9WVlrEmEYOfOnWOuXr/88ksAFwVwAVwAF8AFcFEAF8AFcAFcABfARQFcdOj17bfflp9//nlM1g1MxppcK9dsLGrXrl3lhx9+GHP1AjcwGWvat29fehBHAVwURVEUwAVwY1SvvPJKmT59ernkkktqWPLHH3+s61988cUybdq0csMNN5TNmzfXt9rdu3eXRx55pGzcuLHs3bt3ROuh59qVV15ZLrjggnL++efXHnadx3j44Yfrd5dffnn5/PPP6zpeyW233VYmTpxYlixZ0vP2vWnTpvLAAw+Un376acTqt2fPnvLxxx+X+fPn1/JJ+atWrarX7oorrigvvfRSXf/999/XENdFF11UFi5c2OMNbNmypTzzzDM99R+ulHf77bfX6zVr1qzy3nvv9Xznf+suvvjisnTp0lon5yAs6DrfeOONtedn86See+65sm7duhG5r87XdXJfPD+ul/vSvO958+bV7+68886yY8eOul5vyquuuqpMmTKlrF27tseze/rpp2sP0OFGE7Zu3VpuuummX3nZn332WbnsssvKhRdeWJ/rznvteriu7q37TuqkR6rtr7322vLFF1/03O/HH3+8fPrppzEoAVw0VvT+++9X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"/>
+        </entry>
+        <entry>
+            <key _jt="string" value="_IA_Metadata"/>
+            <value _jt="string" value="-* Created By InfoAssist , ON: October 16, 2017, Version: HEAD,AC2125&#10;-*Do not delete or modify the comments below&#10;*-INTERNAL_COMMENT LINE#0$PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8IS0tMS4wLS0+PFJvb3QgcmVsZWFzZT0iOS45LjkuOSIgdmVyc2lvbj0iMS4yIj4NCiAgICA8T2JqZWN0IG9iamVjdElkPSJUYWJsZUNoYXJ0XzEiPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iTGlua2VkU29ydHMiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciLz4NCiAgICA8L09iamVjdD4NCiAgICA8T2JqZWN0IG9iamVjdElkPSJHTE9CQUwiPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iU2FtcGxlRGF0YSIgdHlwZT0iamF2YS5sYW5nLkJvb2xlYW4iPmZhbHNlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ikdsb2JhbFJlY29yZExpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41MDA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsUnVuUmVjb3JkTGltaXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsT3B0aW1pemF0aW9uIiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+dHJ1ZTwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJmaWVsZERpc3BsYXlNb2RlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5sYWJlbDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJwcmVmaXhEaXNwbGF5TW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyIvPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iQWN0aXZlX1N0eWxlX1VzZXJfdHlwZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+cG93ZXI8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsVmFsdWVzUGFnaW5nIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj40PC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IkZvY2V4ZWNQcmVmZXJlbmNlcyIgdHlwZT0iTWFwIj4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlTbGljZXJzVGFiRWRpdEluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVNlcmllc1RhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iYXV0b0RyaWxsU2NyaXB0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIi8+DQogICAgICAgICAgICA8RW50cnkga2V5PSJydW5PblN0YXJ0dXBEZWZlcnJlZEluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheUVkaXRNb2RlSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5SG9tZVRhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0idGFyZ2V0QXV0b0xpbmtJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9Im1ldGFkYXRhX3ZpZXdzIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5NZXRhRGF0YVRyZWUuVklFV19ESU1TPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlEYXRhVGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJpbmZvQXNzaXN0TW9kZUFsbG93ZWRJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImVuYWJsZUF1dG9MaW5rSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkZWZhdWx0X3ByZXZpZXdfcGFnZWxpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41PC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlJbnNlcnRUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9InJ1bk9uU3RhcnR1cEluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5TGF5b3V0VGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5SW50ZXJhY3RpdmVNb2RlSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj50cnVlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImVuYWJsZUluZm9NaW5pX1NhdmUiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9wcmV2aWV3X3BhZ2VsaW1pdF9sYXlvdXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjE8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVNsaWNlcnNUYWJJbnRlcmFjdGl2ZUluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkZWZhdWx0X2NvbXBvc2VfZm9ybWF0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5BSFRNTDwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5UmVzb3VyY2Vz&#10;*-INTERNAL_COMMENT LINE#1$RmllbGRUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlGb3JtYXRUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5Pg0KICAgICAgICA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iY2FzY2FkZU5hbWVzIiB0eXBlPSJNYXAiLz4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ik1hc3Rlcl9GaWxlcyIgdHlwZT0iU2V0Ij4NCiAgICAgICAgICAgIDxFbnRyeSB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5yZXRhaWxfc2FtcGxlcy93Zl9yZXRhaWxfbGl0ZTwvRW50cnk+DQogICAgICAgIDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJtZXRhZGF0YVZpZXdBcyIgdHlwZT0iTWFwIj4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9InJldGFpbF9zYW1wbGVzL3dmX3JldGFpbF9saXRlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5NZXRhRGF0YVRyZWUuVklFV19ESU1TPC9FbnRyeT4NCiAgICAgICAgPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9ImVuYWJsZVByZXZpZXciIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj50cnVlPC9Qcm9wZXJ0eT4NCiAgICA8L09iamVjdD4NCjwvUm9vdD4NCg==&#10;-*Do not delete or modify the comments above&#10;"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="it_IT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barra Ricavi Regione"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ru_RU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Столбиковая диаграмма региональной выручки"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pl_PL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Wykres słupkowy przychodu dla regionu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ko_KO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="매출 지역 막대"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_AU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="tr_TR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Gelir Bölgesi Çubuğu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_BR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barra de Regiões de Receitas"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barre Revenu par Région"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="hu_HU"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Árbevétel régiósáv"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="de_DE"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Balken Umsatz per Produkt"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="da_DA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Omsætning pr. område - søjle"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_TW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="收入地區長條圖"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_MX"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barra de Ingresos por Región"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barra de Ingresos por Región"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="nl_NL"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Staafdiagram Regio-omzet"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="iw_IW"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barre Revenu par Région"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fi_FI"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Tuottoalue pylväskaaviona"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ar_AR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_GB"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="sv_SV"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Regionintäkter - stapeldiagram"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Revenue Region Bar"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="cs_CS"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Pruh výnosu regionu"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="zh_ZH"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="收入地区条"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="ja_JA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="収益地区棒グラフ"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="no_NO"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Stolpe - Omsetning region"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="pt_PT"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Barra de Regiões de Receitas"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="6">
+        <item _jt="IBRFexParameter" amperFormat="A15V" datadomain="BUSINESS_REGION" description="Region:" index="0" multiselect="false" parent="" parmname="BUSINESS_REGION" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="12" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Region:" format="A15V" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="BUSINESS_REGION" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="staticType"/>
+                <values class="java.util.LinkedHashMap">
+                    <entry>
+                        <key _jt="string" value="_FOC_NULL"/>
+                        <value _jt="string" value="_FOC_NULL"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="EMEA"/>
+                        <value _jt="string" value="EMEA"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="North America"/>
+                        <value _jt="string" value="North America"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Oceania"/>
+                        <value _jt="string" value="Oceania"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="South America"/>
+                        <value _jt="string" value="South America"/>
+                    </entry>
+                </values>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A40V" datadomain="PRODUCT_CATEGORY" description="Category:" index="1" multiselect="true" parent="" parmname="PRODUCT_CATEGORY" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="13" chainIdx="0" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Category:" format="A40V" idxInChain="0" inForm="true" isDefault="true" max="0.0" min="0.0" name="PRODUCT_CATEGORY" noSelection="true" operation="OR" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY" file="retail_samples/WF_RETAIL_LITE">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap"/>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A11V" datadomain="STORE_TYPE" description="Store Type:" index="2" multiselect="false" parent="" parmname="STORE_TYPE" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="14" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Store Type:" format="A11V" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="STORE_TYPE" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="staticType"/>
+                <values class="java.util.LinkedHashMap">
+                    <entry>
+                        <key _jt="string" value="Store Front"/>
+                        <value _jt="string" value="Store Front"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="Web"/>
+                        <value _jt="string" value="Web"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="_FOC_NULL"/>
+                        <value _jt="string" value="_FOC_NULL"/>
+                    </entry>
+                </values>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="YYMD" datadomain="TIME_DATE" description="From:" index="3" multiselect="false" parent="" parmname="TIME_DATE" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="15" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="From:" format="YYMD" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="TIME_DATE" noSelection="false" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="prompt"/>
+                <values class="java.util.LinkedHashMap"/>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="YYMD" datadomain="TIME_DATE_TO" description="To:" index="4" multiselect="false" parent="" parmname="TIME_DATE_TO" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="16" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="To:" format="YYMD" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="TIME_DATE_TO" noSelection="false" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="prompt"/>
+                <values class="java.util.LinkedHashMap"/>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A50V" datadomain="MODEL" description="Product Model:" index="5" multiselect="true" parent="PRODUCT_CATEGORY" parmname="MODEL" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="17" chainIdx="0" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Product Model:" format="A50V" idxInChain="1" inForm="true" isDefault="true" max="0.0" min="0.0" name="MODEL" noSelection="true" operation="OR" parent="PRODUCT_CATEGORY" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="WF_RETAIL_LITE.WF_RETAIL_PRODUCT.MODEL" file="retail_samples/WF_RETAIL_LITE">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="WITHIN"/>
+                        <value _jt="string" value="PRODUCT_CATEGORY"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>
