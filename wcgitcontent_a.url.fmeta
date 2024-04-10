@@ -6,8 +6,9 @@
     <nlsValues _jt="HashMap">
         <entry>
             <key _jt="string" value="en_US"/>
-            <value _jt="ArrayList" size="1">
+            <value _jt="ArrayList" size="2">
                 <item _jt="string" index="0" value="wcgitcontent_a"/>
+                <item _jt="string" index="1" value=""/>
             </value>
         </entry>
     </nlsValues>
